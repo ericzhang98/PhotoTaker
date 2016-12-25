@@ -14,6 +14,7 @@
 		F6CABED01E0F0D7E0048A2ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6CABECE1E0F0D7E0048A2ED /* LaunchScreen.storyboard */; };
 		F6CABEDB1E0F0D7E0048A2ED /* PhotoTakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CABEDA1E0F0D7E0048A2ED /* PhotoTakerTests.swift */; };
 		F6CABEE61E0F0D7E0048A2ED /* PhotoTakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CABEE51E0F0D7E0048A2ED /* PhotoTakerUITests.swift */; };
+		F6FC53B01E0FAD0F00C64C09 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FC53AF1E0FAD0F00C64C09 /* KeychainManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F6CABEE11E0F0D7E0048A2ED /* PhotoTakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoTakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6CABEE51E0F0D7E0048A2ED /* PhotoTakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTakerUITests.swift; sourceTree = "<group>"; };
 		F6CABEE71E0F0D7E0048A2ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6FC53AF1E0FAD0F00C64C09 /* KeychainManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				F6CABEC51E0F0D7E0048A2ED /* AppDelegate.swift */,
 				F6CABEC71E0F0D7E0048A2ED /* ViewController.swift */,
+				F6FC53AF1E0FAD0F00C64C09 /* KeychainManager.swift */,
 				F6CABEC91E0F0D7E0048A2ED /* Main.storyboard */,
 				F6CABECC1E0F0D7E0048A2ED /* Assets.xcassets */,
 				F6CABECE1E0F0D7E0048A2ED /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6CABEC81E0F0D7E0048A2ED /* ViewController.swift in Sources */,
+				F6FC53B01E0FAD0F00C64C09 /* KeychainManager.swift in Sources */,
 				F6CABEC61E0F0D7E0048A2ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

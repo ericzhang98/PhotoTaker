@@ -38,7 +38,17 @@
                                     <constraint firstAttribute="width" constant="102" id="PWK-Zf-ilN"/>
                                 </constraints>
                                 <state key="normal" title="Look at photos"/>
+                                <connections>
+                                    <action selector="getPhotos:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dha-t9-kP7"/>
+                                </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iTI-jJ-1h0">
+                                <rect key="frame" x="67" y="44" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="89L-du-0n9"/>
+                                    <constraint firstAttribute="height" constant="128" id="xYg-lZ-wdM"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -46,10 +56,15 @@
                             <constraint firstItem="Z1b-ri-ArB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="196" id="Fxs-OE-Uh8"/>
                             <constraint firstItem="T2W-Xg-af1" firstAttribute="top" secondItem="Z1b-ri-ArB" secondAttribute="bottom" constant="66" id="fFN-Ga-glM"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="T2W-Xg-af1" secondAttribute="bottom" constant="120" id="iOK-MS-lZg"/>
+                            <constraint firstItem="iTI-jJ-1h0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="24" id="mQN-Lx-srG"/>
+                            <constraint firstItem="iTI-jJ-1h0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mvw-gk-3fG"/>
                             <constraint firstItem="Z1b-ri-ArB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="r6A-Nq-XuU"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Z1b-ri-ArB" secondAttribute="bottom" constant="216" id="sSd-1X-Ppb"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="iTI-jJ-1h0" id="igb-ro-Bd5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
